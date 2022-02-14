@@ -1,0 +1,110 @@
+$accent-color-1: #556da5
+$accent-color-2: #28d2d0
+$accent-color-3: #f27e51
+$accent-color-4: #455a89
+$accent-color-5: #8aca6b
+$valid-color: green
+$invalid-error-color: red
+$warning-color: #b72522
+$header-breakpoint: 800px
+
+.eventForm
+  display: flex
+  flex-direction: column
+  align-items: stretch
+  padding: 20px 20px 80px 20px
+  align-self: flex-start
+  background-color: #EEEEEE
+  box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.1)
+
+  @media screen and (max-width: 850px)
+    align-self: stretch
+    padding: 10px 10px 40px 10px
+
+.submitContainer
+  align-self: stretch
+  border-radius: 5px
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: $accent-color-2
+  padding: 15px
+  border: 0
+  @media(max-width: 850px)
+    align-self: auto
+
+.inscription
+  font-size: 16px
+  color: white
+
+.inputContainer
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-self: stretch
+
+.fieldWarning
+  font-size: 15px
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  color: black
+  border: 1px solid $warning-color
+  margin-bottom: 15px
+  padding: 10px 10px
+  text-align: center
+
+.input
+  background-color: white
+  border: none
+  border-radius: 4px
+  color: black
+  font-size: 18px
+  padding: 10px
+  outline: none
+  margin-bottom: 15px
+  flex: 1
+  width: 100%
+  @media(max-width: 1400px)
+    align-self: normal
+
+
+.notValid
+  border: 2px solid $invalid-error-color
+
+.valid
+  border: 2px solid $valid-color
+
+
+.error
+  align-self: stretch
+  margin-right: 40px
+  margin-left: 40px
+  background: $invalid-error-color
+  color: white
+  font-size: 17px
+  letter-spacing: 0.6px
+  border: 1px solid white
+  border-radius: 8px
+  text-align: center
+  padding-right: 30px
+  padding-left: 30px
+  padding-top: 20px
+  padding-bottom: 20px
+  margin-top: 15px
+  margin-bottom: 20px
+
+
+.errorValid
+  font-size: 14px
+  text-align: center
+  border: 1px solid red
+  align-self: stretch
+  margin-left: 20px
+  margin-right: 20px
+  color: white
+  padding-top: 6px
+  padding-bottom: 6px
+  margin-top: 5px
+  margin-bottom: 15px
