@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "todo-prod",
+            "database": "todo-prod",
+            "username": "postgres",
+            "password": "password"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "squadhelp-dev",
+            "database": "squadhelp-dev",
+            "username": "postgres",
+            "password": "password"
+        }
+    ]
+}
